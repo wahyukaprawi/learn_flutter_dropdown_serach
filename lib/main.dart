@@ -25,7 +25,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<String> country = ["Brazil", "Italia (Disabled)", "Tunisia", 'Canada'];
+  List<String> country = ["Indonesia, Brazil", "Italia (Disabled)", "Tunisia", 'Canada'];
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           onChanged: print,
-          selectedItem: "Brazil",
+          selectedItem: "Indonesia",
         ),
       ),
     );
